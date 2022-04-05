@@ -22,7 +22,7 @@ export default function TextForm(props) {
   };
 
   const handleFormat = () => {
-    var formatted = text.toLowerCase().split(". ");
+    var formatted = text.split(". ");
 
     for (var i = 0; i < formatted.length; i++) {
       formatted[i] =
